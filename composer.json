@@ -1,9 +1,9 @@
 {
-  "name": "themexpert/onepager",
+  "name": "lcfumes/onepager",
   "authors": [
     {
-      "name": "ThemeXpert",
-      "email": "info@themexpert.com"
+      "name": "Luiz Fumes",
+      "email": "lcfumes@gmail.com"
     }
   ],
   "require": {
