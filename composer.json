@@ -1,5 +1,6 @@
 {
   "name": "lcfumes/onepager",
+  "type": "wordpress-plugin",
   "authors": [
     {
       "name": "Luiz Fumes",
