@@ -36,7 +36,7 @@ class OnepageScripts {
     }
 
     $asset->style( 'tx-animate', op_asset( 'assets/css/animate.css' ) );
-    $asset->style( 'tx-fontawesome', op_asset( '/vendor/components/font-awesome/css/fontawesome.css' ) );
+    $asset->style( 'tx-fontawesome', op_asset( 'assets/css/font-awesome.css' ) );
   }
 
   protected function shouldLoadTwitterBootstrap() {
