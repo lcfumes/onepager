@@ -15,7 +15,7 @@ trait FormEngineScripts {
 
     // tx namespaced assets to avoid multiple assets loading from other ThemeXpert product
     $asset->style( 'tx-bootstrap', op_asset( 'assets/css/bootstrap.css' ) );
-    $asset->style( 'tx-fontawesome', op_asset( 'vendor/components/font-awesome/css/fontawesome.css' ) );
+    $asset->style( 'tx-fontawesome', op_asset( '/vendor/components/font-awesome/css/fontawesome.css' ) );
 
     $asset->script( 'tx-bootstrap', op_asset( 'assets/js/bootstrap.js' ), [ 'jquery' ], ONEPAGER_VERSION, false );
     $asset->script( 'tx-bootstrap-switch', op_asset( 'assets/js/bootstrap-switch.js' ), [ 'jquery' ], ONEPAGER_VERSION, false );
