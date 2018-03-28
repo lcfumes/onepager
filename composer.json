@@ -12,7 +12,13 @@
     "league/url": "^3.3",
     "kriswallsmith/assetic": "^1.2",
     "ramsey/array_column": "^1.1",
-    "symfony/http-foundation": "^2.7"
+    "symfony/http-foundation": "^2.7",
+    "lcfumes/escale-components": "^0.2.1"
+  },
+  "extra": {
+    "installer-paths": {
+      "./blocks/": ["lcfumes/escale-components"]
+    }
   },
   "autoload": {
     "classmap": ["src/WordPress"],
